@@ -1,0 +1,24 @@
+VLSI SoC Design & Chip Modeling – From Idea to Silicon
+
+Designing a System-on-Chip (SoC) is like a guided journey where each step builds on the previous one, ensuring that the design intent is preserved all the way from concept to fabrication. At every stage, checks are done so outputs remain consistent (O0 = O1 = O2 = O3).
+
+1. Specification Modeling
+It all starts with defining the design intent using a C-like testbench. This acts as the golden reference, generating expected outputs (O0) and forming the baseline for future comparisons.
+
+2. RTL Design (Verilog)
+Next, the design is expressed in Verilog at RTL. The RTL outputs (O1) are matched against the golden reference (O0). This step produces RTL code, testbenches, and simulation proofs.
+
+3. RTL Partitioning
+The RTL is then broken into manageable blocks: processor (soft logic), peripherals (macros), and analog IPs (functional models). The key is to maintain functional equivalence (O1 = O2).
+
+4. SoC Integration
+All blocks are stitched together into a complete SoC using buses and GPIOs. The system’s integrated behavior must still align with the reference RTL (O2).
+
+5. Physical Design (PD)
+Here, the design transitions to its physical form through floorplanning, placement, clock tree synthesis, and routing. Reports at this stage confirm that functionality is preserved.
+
+6. GDSII & Sign-off
+The physical layout is finalized into a GDSII file for fabrication. Rigorous checks like DRC and LVS ensure the layout matches design rules and the schematic.
+
+7. Final Verification & Handoff
+A full-chip testbench validates the entire system. Consistency across all stages (O0, O1, O2, O3) confirms the design is ready for tape-out.
