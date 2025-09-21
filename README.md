@@ -42,20 +42,17 @@ sudo make install
 ---
 
 ### 2. Icarus Verilog (iverilog)
-\`\`\`bash
+
 sudo apt-get update
 
 sudo apt-get install iverilog
-\`\`\`
 
 ---
 
 ### 3. GTKWave
-\`\`\`bash
-sudo apt-get update
 
+sudo apt-get update
 sudo apt install gtkwave
-\`\`\`
 
 ---
 
@@ -63,9 +60,7 @@ sudo apt install gtkwave
 
 After installation, check versions:
 
-\`\`\`bash
 yosys -V
 iverilog -V
 gtkwave --version
-\`\`\`
 
