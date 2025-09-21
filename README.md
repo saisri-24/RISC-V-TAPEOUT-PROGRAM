@@ -52,6 +52,7 @@ sudo apt-get install iverilog
 ### 3. GTKWave
 
 sudo apt-get update
+
 sudo apt install gtkwave
 
 ---
@@ -61,6 +62,8 @@ sudo apt install gtkwave
 After installation, check versions:
 
 yosys -V
+
 iverilog -V
+
 gtkwave --version
 
