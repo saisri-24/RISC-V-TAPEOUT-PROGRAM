@@ -15,7 +15,8 @@ This repository documents the setup process for the essential open-source tools 
 
 ---
 
-![Ubuntu using oracle](C:\Users\acer\OneDrive\Pictures\ubuntu using VM.png)
+![Ubuntu using oracle](<img width="1111" height="716" alt="ubuntu using VM" src="https://github.com/user-attachments/assets/96357ac4-381f-419d-9d2a-185d92f072d8" />
+)
 
 ## ⚙️ Tools to Install
 
