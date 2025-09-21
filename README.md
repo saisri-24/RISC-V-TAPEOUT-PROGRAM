@@ -15,6 +15,8 @@ This repository documents the setup process for the essential open-source tools 
 
 ---
 
+![Ubuntu using oracle]("C:\Users\acer\OneDrive\Pictures\ubuntu using VM.png")
+
 ## ⚙️ Tools to Install
 
 ### 1. Yosys (Open Synthesis Suite)
@@ -40,6 +42,7 @@ make
 sudo make install
 
 ---
+
 
 ### 2. Icarus Verilog (iverilog)
 
