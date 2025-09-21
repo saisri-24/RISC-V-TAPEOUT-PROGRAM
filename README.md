@@ -15,7 +15,6 @@ This repository documents the setup process for the essential open-source tools 
 
 ---
 
-![Ubuntu using oracle](week%200/task%201/ubuntu%20using%20vm.png)
 
 ## ⚙️ Tools to Install
 
